@@ -28,15 +28,20 @@
         <h2>TRANSACTION BOX</h2>
         <form >
             <br>
-            <label id="label" for="mobile-booth">Select Mobile Booth</label>
-            <select id="mobile-booth" class="select" name="mobile-booth">
+            <label id="label" for="mobileBooth">Select Mobile Booth:</label>
+            <select id="mobileBooth" onchange="updateServices()"  class="select">
                 <option value="">Select Mobile Booth</option>
-            
+                <option value="Wina1" >Wina1</option>
+                <option value="Wina2" >Wina2</option>
+                <option value="Wina3" >Wina3</option>	
+                <option value="Wina4" >Wina4</option>	
+                <option value="Wina5" >Wina5</option>	
+                <option value="Wina6" >Wina6</option>	
             </select>
             <br><br>
             <label id="label" for="service">Select Service</label>
             <select id="service" class="select"  name="service">
-                <option value="">Select Service</option>
+                <option value="" id="options">Select Service</option>
 
             <!-- populate service options from database -->
             </select>
