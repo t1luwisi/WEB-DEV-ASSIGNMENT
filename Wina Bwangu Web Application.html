@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wina Bwangu Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container" >  
+        <span class="hi">
+        <ul>
+            <li><a  href="dashboard.html">Dashboard</a></li>
+            <li><a>Transactions</a></li>
+            <li style="width: 180px;">
+                <a>CONTACT US</a>
+                <ul class="dropdown">
+                <li><a>260967512863</a></li>
+                <li><a>Reviews</a></li>
+                </ul>                                                
+            </li>
+        </ul>
+        </span>
+<div >
+    <span>
+    <h1>WELCOME TO MWANA BWANGU</h1>
+    </span>
+    <div class="odd">
+        <h2>TRANSACTION BOX</h2>
+        <form >
+            <br>
+            <label id="label" for="mobile-booth">Select Mobile Booth</label>
+            <select id="mobile-booth" class="select" name="mobile-booth">
+                <option value="">Select Mobile Booth</option>
+            
+            </select>
+            <br><br>
+            <label id="label" for="service">Select Service</label>
+            <select id="service" class="select"  name="service">
+                <option value="">Select Service</option>
+
+            <!-- populate service options from database -->
+            </select>
+            <br><br>
+            <label id="label" for="transaction-amount">Transaction Amount</label>
+            <input type="number" class="select" id="transaction-amount"  name="transaction-amount" style="width: 230px;">
+            <br><br>
+            <label  for="transaction-result"><button type="submit" id="button">Calculate Final Amount</button></label>
+            <output class="select" name="transaction-amount">final fee</output>
+        </form>
+    </div>
+   
+</div>
+    
+<div class="dashboard">
+
+
+    <h1>dashboard</h1>
+    <label for="Total-Revenue" > TOTAL REVENUE</label>
+    <output type="number" class="select" name="Total-revenue">output</output>
+    
+</div>
+<script src="wina.js"></script>
+</body>
+</html>
